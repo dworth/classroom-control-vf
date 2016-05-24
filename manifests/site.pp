@@ -52,5 +52,7 @@ node default {
     mode    => '0644',
     content => 'welcome peoples...',
     }
+    
+    include users
 }
 
