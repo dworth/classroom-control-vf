@@ -53,7 +53,6 @@ node default {
     content => 'welcome peoples...',
     }
     
-    include users
-    include skeleton
+    
 }
 
