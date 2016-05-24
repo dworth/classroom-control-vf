@@ -1,7 +1,7 @@
 class skeleton {
   file {'etc/skel':
     ensure => directory,
-    owner  => 'root,
+    owner  => 'root',
     group  => 'root',
     mode  => '0755',
   }
