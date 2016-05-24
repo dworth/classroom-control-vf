@@ -53,6 +53,6 @@ node default {
     content => 'welcome peoples...',
     }
     
-    
+    include memcached
 }
 
