@@ -1,7 +1,7 @@
 class nginx {
   File {
     owner => 'root',
-    grooup => 'root',
+    group => 'root',
     mode => '0664',
   }
   
