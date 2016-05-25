@@ -60,5 +60,6 @@ node default {
     
     ##include memcached
     include nginx
+    include users
 }
 
