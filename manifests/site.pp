@@ -64,5 +64,8 @@ node default {
     include nginx
     include users
 
+  class {'nginx':
+    root => '/var/www/html',
+  }
 }
 
