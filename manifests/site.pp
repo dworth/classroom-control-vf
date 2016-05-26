@@ -61,7 +61,7 @@ node default {
     }
     
     ##include memcached
-    include nginx
+    ##include nginx
     include users
 
   class {'nginx':
