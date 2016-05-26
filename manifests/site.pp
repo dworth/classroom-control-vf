@@ -62,6 +62,8 @@ node default {
     
     ##include memcached
     include nginx
+    nginx::vhost { 'punch.puppetlabs.vm': } 
+    nginx::vhost { 'judy.puppetlabs.vm' : }
     include users
 
   ##class {'nginx':
