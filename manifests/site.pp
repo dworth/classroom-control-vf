@@ -61,11 +61,11 @@ node default {
     }
     
     ##include memcached
-    ##include nginx
+    include nginx
     include users
 
-  class {'nginx':
-    root => '/var/www/html',
-  }
+  ##class {'nginx':
+  ##  root => '/var/www/html',
+  ##}
 }
 
